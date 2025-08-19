@@ -65,6 +65,7 @@ on:
           - panther-x2
           - r66s
           - r68s
+          - rk3568-evb1-v10
           - renegade-rk3328
           - rk3318-box
           - rock5b

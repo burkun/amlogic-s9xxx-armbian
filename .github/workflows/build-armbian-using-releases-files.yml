@@ -175,6 +175,7 @@ on:
           - tb-ls3399
           - tn3399
           - tpm312
+          - rk3568-evb1-v10
           - tqc-a01
           - tvi3315a
           - vplus
