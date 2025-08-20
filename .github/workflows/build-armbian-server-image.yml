@@ -203,6 +203,7 @@ on:
           - 6.1.y_6.12.y
           - 6.1.y_6.6.y
           - 6.6.y_6.12.y
+          - 6.1.115
       auto_kernel:
         description: "Auto use the latest kernel."
         required: false
@@ -225,6 +226,7 @@ on:
           - flippy
           - dev
           - beta
+          - rk35xx
       armbian_fstype:
         description: "Select armbian rootfs type."
         required: false
