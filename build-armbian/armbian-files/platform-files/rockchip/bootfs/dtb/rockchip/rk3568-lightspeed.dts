@@ -371,6 +371,7 @@
                 <&gmac0_rgmii_clk>, <&gmac0_rgmii_bus>;
     
     /* PHY handle */
+    phy-supply = <&vcc_3v3>;
     phy-handle = <&rgmii_phy0>;
 
     mdio {
