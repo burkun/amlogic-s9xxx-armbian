@@ -75,7 +75,7 @@ armbian_release_file="etc/armbian-release"
 ophub_release_file="etc/ophub-release"
 
 # U-BOOT files download repository
-uboot_repo="https://github.com/ophub/u-boot"
+uboot_repo="https://github.com/burkun/u-boot"
 # Firmware files download repository
 firmware_repo="https://github.com/ophub/firmware"
 
@@ -429,10 +429,11 @@ download_depends() {
     # Download Armbian u-boot files
     git_pull_dir ${uboot_repo} main u-boot ${uboot_path}
     [[ "${?}" -eq 0 ]] && echo -e "${INFO} u-boot download completed." || error_msg "u-boot download failed."
-
+    echo -e "${INFO} ${uboot_repo} main u-boot ${uboot_path}"
     # Download Armbian firmware files
     git_pull_dir ${firmware_repo} main firmware ${firmware_path}
     [[ "${?}" -eq 0 ]] && echo -e "${INFO} firmware download completed." || error_msg "firmware download failed."
+    echo -e "${INFO} ${firmware_repo} main u-boot ${firmware_path}"
 }
 
 query_kernel() {
