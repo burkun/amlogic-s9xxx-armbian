@@ -81,4 +81,4 @@ fi
 # 启动内核（arm64 架构用 booti）
 booti ${kernel_addr_r} ${ramdisk_addr_r} ${fdt_addr_r}
 
-# mkimage -C none -A arm -T script -n "Armbian RK3568 EVB Boot Script" -d boot.cmd boot.scr
+# mkimage -C none -A arm64 -T script -n "Armbian RK3568 EVB Boot Script" -d boot.cmd boot.scr
