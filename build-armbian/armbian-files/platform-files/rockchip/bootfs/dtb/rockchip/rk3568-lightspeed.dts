@@ -782,7 +782,6 @@
 
 /* ---- SATA2 Config ---- */
 &sata2 {
-    vcc12v-supply = <&vcc12v_sata>;
     status = "okay";
 };
 
