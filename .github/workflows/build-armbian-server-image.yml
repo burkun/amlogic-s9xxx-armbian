@@ -27,6 +27,7 @@ on:
         type: choice
         options:
           - all
+          - lightspeed
           - top50
           - rest50
           - a311d-oes_s905d_s905x3_s922x-ct2000_wxy-oect
@@ -62,7 +63,6 @@ on:
           - king3399
           - kylin3399
           - lckfb-tspi
-          - rk3568-evb1-v10
           - leez
           - lx-r3s
           - mrkaio-m68s

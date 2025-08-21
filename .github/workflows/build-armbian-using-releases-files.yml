@@ -27,6 +27,7 @@ on:
         type: choice
         options:
           - all
+          - lightspeed
           - top50
           - rest50
           - a311d-oes_s905d_s905x3_s922x-ct2000_wxy-oect
@@ -175,7 +176,6 @@ on:
           - tb-ls3399
           - tn3399
           - tpm312
-          - rk3568-evb1-v10
           - tqc-a01
           - tvi3315a
           - vplus
